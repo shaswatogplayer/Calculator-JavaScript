@@ -1,0 +1,90 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  .look{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } 
+  .space{
+    margin-bottom: 30px;
+  }
+  .calculator {
+    border: 3px solid orange;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .display {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+    font-size: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .aff {
+    background-color: green;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .current-display {
+    margin-top: 10px;
+    width: 250px;
+    
+    padding: 10px;
+    border: 1px solid white;
+    background-color: black;
+    font-size: 1.2em;
+    text-align: center;
+    color:white;
+    min-height: 40px; /* Adjust as needed */
+  }
+  
+
+
+  .btn {
+    background-color: green;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn:active {
+    background-color: #ccc;
+  }
+  
+  .btn.operator {
+    background-color: #f9a825;
+    color: white;
+  }
+  
+  .btn.operator:hover {
+    background-color: #f57f17;
+  }
+  
